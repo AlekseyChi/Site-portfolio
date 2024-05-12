@@ -274,3 +274,6 @@ tags
 
 # Redis dump file
 dump.rdb
+
+# Sqlite DB file
+chiganov_site/portfolio/db.sqlite3
