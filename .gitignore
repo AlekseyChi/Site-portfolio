@@ -276,4 +276,4 @@ tags
 dump.rdb
 
 # Sqlite DB file
-chiganov_site/portfolio/db.sqlite3
+chiganov_site/db.sqlite3
