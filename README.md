@@ -5,32 +5,42 @@
 ## Этапы развертывания
 
 1. **Создание виртуального окружения**:
-   ```bash
+   ```ps
    python -m venv venv
    ```
 
 2. **Активация виртуального окружения**:
-   ```bash
+   ```ps
    ./venv/scripts/activate
    ```
 
 3. **Установка зависимостей**:
-   ```bash
+   ```ps
    pip install -r requirements.txt
    ```
 
 4. **Переход в папку с проектом**:
-   ```bash
+   ```ps
    cd chiganov_site
    ```
 
 5. **Создание суперпользователя**:
-   ```bash
+   ```ps
    python manage.py createsuperuser
    ```
 
+6. **Создание миграций**:
+   ```ps
+   python manage.py makemigrations
+   ```
+
+7. **Применение миграций**:
+   ```ps
+   python manage.py migrate
+   ```
+
 6. **Запуск проекта**:
-   ```bash
+   ```ps
    python manage.py runserver
    ```
 
